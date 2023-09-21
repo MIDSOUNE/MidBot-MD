@@ -11,39 +11,25 @@ import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js";
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-["525587109454", '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈', true],
-["595975740803", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], 
-["5492266466080"], 
-["593968585383"], 
-["5492266613038"],
-["51906662557"],
-["5217294888993"]]
+["212621124079", '𝙈𝙞𝙙𝘽𝙤𝙩-𝙈𝘿 💖🐈', true],
+["212621124079", '𝙈𝙞𝙙𝙎𝙤𝙪𝙣𝙚 💖🐈', true], 
+["212621124079"]]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = [];
-global.prems = ["528451003894"];
+global.mods = ["212621124079"];
+global.prems = ["212621124079"];
 //key de violetics
 global.Key360 = ["964f-0c75-7afc"];
    
   
 //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga GataBot-MD
-//Add the language you want GataBot-MD to have
-//  es = Español         id = Bahasa Indonesia
-//  en = English         pt = Português 
-//  ar = عرب             hi = Hindi Language
-
-global.lenguajeGB = es; //Idioma de GataBot, Ejemplo: es | en | pt...
+global.lenguajeGB = ar; //Idioma de GataBot, Ejemplo: es | en | pt...
 
 //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.openai_key = "sk-...OzYy2";
-/* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
-
-global.openai_org_id = "HITjoN7H8pCwoncEB9e3fSyW";
-/* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
-
+global.openai_key = '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' 
+global.openai_org_id = 'org-yXgxGroaCavP0mRxVMNuZ1ot'
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"];
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
 global.keysxteammm = ["29d4b59a4aa687ca", "5LTV57azwaid7dXfz5fzJu", "cb15ed422c71a2fb", "5bd33b276d41d6b4", "HIRO", "kurrxd09", "ebb6251cc00f9c63"];
@@ -81,6 +67,7 @@ global.APIKeys = {
   'https://api.ibeng.tech/docs': 'tamvan',
   'https://api.itsrose.site': 'Rs-Zeltoria',
   'https://api-xcoders.site': 'Frieren'
+  'https://api.zahwazein.xyz': 'zenzkey_bdd79a469f2c'
 };
 
 global.mods = []; 
@@ -96,47 +83,43 @@ global.moment = moment;
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["18059196237", 'Gata Dios 💻', 1], 
-["5492266466080", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["59894808483", '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["5521989092076", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["5491173694367", 'Prueba', 1]];
+["212621124079", 'MidSoune 💻', 1]];
 
 global.mail = ''; //agrega tú correo
 global.desc = ''; //agrega una descripción corta
 global.desc2 = ''; //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = ''; //agrega tú país ejemplo: 🇪🇨
 
-global.packname = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈";
-global.author = "𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨";
+global.packname = "𝙈𝙞𝙙𝘽𝙤𝙩-𝙈𝘿";
+global.author = "𝙈𝙞𝙙𝙎𝙤𝙪𝙣𝙚";
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = "1.4.9";
 global.vsJB = "2.0";
 
-global.gt = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿";
-global.yt = "https://youtube.com/@gatadios";
-global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s";
-global.ig = "https://www.instagram.com/gata_dios";
-global.md = "https://github.com/GataNina-Li/GataBot-MD";
-global.fb = "https://www.facebook.com/groups/872989990425789/";
+global.gt = "𝙈𝙞𝙙𝘽𝙤𝙩-𝙈𝘿𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿";
+global.yt = "https://youtube.com/@midsoune";
+global.yt2 = "https://www.youtube.com/";
+global.ig = "https://www.instagram.com/midsoune";
+global.md = "https://github.com/midsoune/MidBot-MD";
+global.fb = "https://www.facebook.com";
 
-global.nna = 'https://chat.whatsapp.com/DVhu9S9Zr7cBFFl26N61U3' //UPDATE GATABOT
-global.nn2 = 'https://chat.whatsapp.com/HLXJUIznsbHJ3LF6pTgmh6' //UPDATE 2
-global.nna2 = 'https://chat.whatsapp.com/JRFOdyjNqhwEJcDQoBCHzL' //Help
-global.nn = 'https://chat.whatsapp.com/Ii0hagX0idw4C7Gxwts54x' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/LGHW0ZwLgpeH7Nsn4vlrWi' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/Jvhbjxueer0GSdOw75ZtWR' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/Gysm0PMJ4zg7ts0E9t91Hz' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/IZeaMQos8pxEhlyVI6yZaa' //Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/B8lrwGzSUbf7zlZHDAwCQ8' //Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/IlyJBy1fxcw2qAHLSC5YLa' //Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/LVocHnQjrci6dM4TZdmhBH' //Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YQxZrBqO' //Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HOCsvLox0Ui7cwzTCeFhPP' //A.T.M.M
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'Wa.me/50660400020' //Dudas? escríbeme...
+global.nna = 'https://chat.whatsapp.com/DVhu9S9Zr7cBFFl2N61U3' //UPDATE GATABOT
+global.nn2 = 'https://chat.whatsapp.com/HLXJUIznsbHJ3L6pTgmh6' //UPDATE 2
+global.nna2 = 'https://chat.whatsapp.com/JRFOdyjNqhwEJcQoBCHzL' //Help
+global.nn = 'https://chat.whatsapp.com/Ii0hagX0idw4C7Gxts54x' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com/LGHW0ZwLgpeH7Ns4vlrWi' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com/Jvhbjxueer0GSdw75ZtWR' //Grupo 3
+global.nnntt = 'https://chat.whatsapp.com/Gysm0PMJ4zg7tsE9t91Hz' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com/' //Grupo 5
+global.nnnttt1 = 'https://chat.whatsapp.com/B8lrwGzSUbf7zlZHDwCQ8' //Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com/IlyJBy1fxcw2qAHLS5YLa' //Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com/LVocHnQjrci6dMTdmhBH' //Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com/KLpYFsitkgzJ15YZrBqO' //Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com/HOCsvLox0Ui7cwzCeFhPP' //A.T.M.M
+global.paypal = 'https://paypal.me/'
+global.asistencia = 'Wa.me/212621124079' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -170,13 +153,13 @@ global.exito = eg;
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨";
-global.igfg = "𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿";
+global.wm = "𝙈𝙞𝙙𝘽𝙤𝙩-𝙈𝘿 : 𝙈𝙞𝙙𝙎𝙤𝙪𝙣𝙚";
+global.igfg = "𝙈𝙞𝙙𝘽𝙤𝙩-𝙈𝘿";
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*";
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*";
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*";
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*";
-global.nomorown = "593993684821";
+global.nomorown = "212621124079";
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -203,11 +186,11 @@ global.imagen13 = fs.readFileSync("./media/menus/img12.jpg");
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
 
-global.img = 'https://tinyurl.com/2dgppss3.jpg';
-global.img2 = 'https://tinyurl.com/27jqx2e6.jpg';
+global.img = '';
+global.img2 = '';
 
-global.img3 = 'https://tinyurl.com/23jcbhue.jpg'; //prem
-global.img4 = 'https://tinyurl.com/23z2xqqv.jpg'; //prem
+global.img3 = ''; //prem
+global.img4 = ''; //prem
 
 global.img5 = 'https://tinyurl.com/29nok9ba.jpeg';
 global.img6 = 'https://tinyurl.com/227vqnqn.jpeg';
@@ -264,8 +247,8 @@ global.htka = "*☪ ••••̩̩͙⊰•⭑*";
 global.comienzo = "• • ◕◕════";
 global.fin = " • •";
 
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}`; //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`;//America/Los_Angeles
+global.botdate = `⫹⫺ Date :  ${moment.tz('Africa/Casablanca').format('DD/MM/YY')}`; //Asia/Jakarta
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Africa/Casablanca').format('HH:mm:ss')}`;//America/Los_Angeles
 global.fgif = {
             key: {
                  participant : '0@s.whatsapp.net'},
@@ -284,7 +267,7 @@ global.fgif = {
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-global.multiplier = 60; // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
+global.multiplier = 6; // The higher, The harder levelup 
 
 //Emojis RPG - Referencias
 global.rpg = {
