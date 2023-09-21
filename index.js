@@ -14,11 +14,11 @@ const { name, author } = require(join(__dirname, "./package.json"));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Gata\nBot\nMD', {
+say('𝙈𝙞𝙙𝘽𝙤𝙩-𝙈𝘿', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Project Author:\nGataNina-Li (@gata_dios)\n\nColaboradores:\nelrebelde21 (Mario)\nAzamiJs (Azami)`, {
+say(`Project Author:\nMidSOune (@midsoune)\n\nColaboradores:\nMidSoune\nTechsoune.com`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']});
@@ -39,7 +39,7 @@ args: args.slice(1),
 })
 let p = fork()
 p.on('message', data => {
-//console.log('╭--------- - - - ✓\n┆ ✅ TIEMPO DE ACTIVIDAD ACTUALIZADA\n╰-------------------- - - -', data)
+//console.log('╭--------- - - - ✓\n┆ ✅ UPDATED ACTIVITY TIME\n╰-------------------- - - -', data)
 switch (data) {
 case 'reset':
 p.process.kill()
@@ -52,7 +52,7 @@ break
 }})
 p.on('exit', (_, code) => {
 isRunning = false
-console.error('⚠️ Error Inesperado ⚠️', code)
+console.error('⚠️ Unexpected error ⚠️', code)
 if (code === 0) return
 watchFile(args[0], () => {
 unwatchFile(args[0])
